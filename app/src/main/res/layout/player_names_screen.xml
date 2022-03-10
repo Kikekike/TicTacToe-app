@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main_background"
+    tools:context=".ui.playernames.PlayerNamesScreen">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.15"/>
+
+    <ImageView
+        android:contentDescription="@string/main_icon_description"
+        android:id="@+id/imageIconNamesScreen"
+        android:layout_width="@dimen/layout_size_0dp"
+        android:layout_height="@dimen/layout_size_0dp"
+        android:layout_margin="@dimen/margin_space_8dp"
+        android:rotation="@integer/rotation_45"
+        app:layout_constraintBottom_toTopOf="@+id/guideline2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline1"
+        app:srcCompat="@drawable/main_icon"/>
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.30"/>
+
+    <TextView
+        android:id="@+id/textTitleNamesScreen"
+        style="@style/TextViewTitle"
+        android:layout_width="@dimen/layout_size_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="@dimen/margin_space_24dp"
+        android:layout_marginTop="@dimen/margin_space_32dp"
+        android:layout_marginEnd="@dimen/margin_space_24dp"
+        android:text="@string/title_player_names"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline2"/>
+
+    <EditText
+        android:id="@+id/namePlayerOne"
+        android:layout_width="@dimen/layout_size_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_space_24dp"
+        android:drawableStart="@drawable/player_one_icon"
+        android:hint="@string/hint_player_one"
+        style="@style/MainEditText"
+        app:layout_constraintEnd_toEndOf="@+id/textTitleNamesScreen"
+        app:layout_constraintStart_toStartOf="@+id/textTitleNamesScreen"
+        app:layout_constraintTop_toBottomOf="@+id/textTitleNamesScreen"/>
+
+    <EditText
+        android:id="@+id/namePlayerTwo"
+        android:layout_width="@dimen/layout_size_0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_space_16dp"
+        android:drawableStart="@drawable/player_two_icon"
+        android:hint="@string/hint_player_two"
+        style="@style/MainEditText"
+        app:layout_constraintEnd_toEndOf="@+id/namePlayerOne"
+        app:layout_constraintStart_toStartOf="@+id/namePlayerOne"
+        app:layout_constraintTop_toBottomOf="@+id/namePlayerOne"/>
+
+    <Button
+        android:id="@+id/startGameButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="@dimen/margin_space_16dp"
+        android:text="@string/start_game_text"
+        android:padding="@dimen/margin_space_8dp"
+        android:paddingStart="@dimen/margin_space_32dp"
+        android:paddingEnd="@dimen/margin_space_32dp"
+        style="@style/MainButton"
+        app:layout_constraintEnd_toEndOf="@+id/namePlayerTwo"
+        app:layout_constraintStart_toStartOf="@+id/namePlayerTwo"
+        app:layout_constraintTop_toBottomOf="@+id/namePlayerTwo"/>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

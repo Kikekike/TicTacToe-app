@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="layout_size_0dp">0dp</dimen>
+    <dimen name="margin_space_4dp">4dp</dimen>
+    <dimen name="margin_space_8dp">8dp</dimen>
+    <dimen name="margin_space_12dp">12dp</dimen>
+    <dimen name="margin_space_16dp">16dp</dimen>
+    <dimen name="margin_space_24dp">24dp</dimen>
+    <dimen name="margin_space_32dp">32dp</dimen>
+    <dimen name="min_Height_48dp">48dp</dimen>
+    <dimen name="text_size_13sp">13sp</dimen>
+    <dimen name="text_size_18sp">18sp</dimen>
+    <dimen name="text_size_20sp">20sp</dimen>
+    <dimen name="text_size_25sp">25sp</dimen>
+    <dimen name="text_size_32sp">32sp</dimen>
+    <integer name="rotation_45">45</integer>
+    <integer name="text_max_length_15">15</integer>
+</resources>

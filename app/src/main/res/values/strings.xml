@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">TicTacToe</string>
+
+    <!-- PlayerNamesScreen -->
+    <string name="title_player_names">Enter Player Names</string>
+    <string name="hint_player_one">Player One</string>
+    <string name="hint_player_two">Player Two</string>
+    <string name="start_game_text">Start Game</string>
+    <string name="main_icon_description">Main Icon App</string>
+
 </resources>
