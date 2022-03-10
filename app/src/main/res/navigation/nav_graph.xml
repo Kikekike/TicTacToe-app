@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/playerNamesFragment">
+
+    <fragment
+        android:id="@+id/playerNamesFragment"
+        android:name="com.example.tictactoe.ui.playernames.PlayerNamesScreen"
+        android:label="player_names_screen"
+        tools:layout="@layout/player_names_screen">
+    </fragment>
+
+</navigation>
