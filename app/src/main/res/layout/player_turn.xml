@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/playerTurn"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:background="@drawable/background_player_turn">
+
+    <TextView
+        android:id="@+id/playerNameTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/dummy_player_name"
+        style="@style/TextViewTitle"/>
+
+    <ImageView
+        android:layout_marginTop="@dimen/margin_space_12dp"
+        android:id="@+id/playerIconTurn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/player_icon_description"
+        app:srcCompat="@drawable/player_one_icon_big"/>
+
+</LinearLayout>

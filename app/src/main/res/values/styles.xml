@@ -21,7 +21,7 @@
         <item name="android:textSize">@dimen/text_size_25sp</item>
         <item name="android:background">@drawable/background_input_layout</item>
         <item name="android:drawablePadding">@dimen/margin_space_16dp</item>
-        <item name="android:maxLength">@integer/text_max_length_15</item>
+        <item name="android:maxLength">@integer/text_max_length_10</item>
     </style>
 
     <!-- buttons style -->

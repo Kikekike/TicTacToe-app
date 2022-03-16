@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ImageButton
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/cellButton"
+    android:background="@drawable/background_cell"
+    android:contentDescription="@string/player_icon_description"
+    android:src="@drawable/empty_cell_icon"
+    android:padding="@dimen/margin_space_32dp"
+    android:adjustViewBounds="true"
+    android:scaleType="centerInside">
+</ImageButton>
