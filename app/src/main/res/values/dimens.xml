@@ -14,5 +14,5 @@
     <dimen name="text_size_25sp">25sp</dimen>
     <dimen name="text_size_32sp">32sp</dimen>
     <integer name="rotation_45">45</integer>
-    <integer name="text_max_length_15">15</integer>
+    <integer name="text_max_length_10">10</integer>
 </resources>
