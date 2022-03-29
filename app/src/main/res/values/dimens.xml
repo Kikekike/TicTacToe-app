@@ -15,4 +15,6 @@
     <dimen name="text_size_32sp">32sp</dimen>
     <integer name="rotation_45">45</integer>
     <integer name="text_max_length_10">10</integer>
+    <integer name="weight_sum_3">3</integer>
+    <integer name="layout_weight_1">1</integer>
 </resources>

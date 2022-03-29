@@ -4,22 +4,22 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/nav_graph"
-    app:startDestination="@id/boardGameFragment">
+    app:startDestination="@id/playerNamesFragment">
 
     <fragment
         android:id="@+id/playerNamesFragment"
-        android:name="com.example.tictactoe.ui.playernames.PlayerNamesScreen"
+        android:name="com.example.tictactoe.ui.playernames.PlayerNamesFragment"
         android:label="player_names_screen"
-        tools:layout="@layout/player_names_screen">
+        tools:layout="@layout/fragment_player_names">
         <action android:id="@+id/action_playerNamesFragment_to_boardGameFragment"
                 app:destination="@id/boardGameFragment"/>
     </fragment>
 
     <fragment
         android:id="@+id/boardGameFragment"
-        android:name="com.example.tictactoe.ui.boardgame.BoardGameScreen"
+        android:name="com.example.tictactoe.ui.boardgame.BoardGameFragment"
         android:label="board_game_screen"
-        tools:layout="@layout/board_game_screen">
+        tools:layout="@layout/fragment_board_game">
     </fragment>
 
 </navigation>
