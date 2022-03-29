@@ -1,7 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     android:gravity="center"
@@ -10,60 +9,87 @@
     android:background="@drawable/background_board">
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/rawOne"
-        tools:ignore="UselessParent">
+        android:weightSum="@integer/weight_sum_3">
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellOne"
         />
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellTwo"
         />
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellThree"
         />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/rawTwo"
-        tools:ignore="UselessParent">
+        android:weightSum="@integer/weight_sum_3">
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellFour"
         />
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellFive"
         />
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellSix"
         />
     </LinearLayout>
 
     <LinearLayout
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         android:id="@+id/rawThree"
-        tools:ignore="UselessParent">
+        android:weightSum="@integer/weight_sum_3">
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellSeven"
         />
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellEight"
         />
         <include
+            android:layout_height="match_parent"
+            android:layout_width="0dp"
+            android:layout_weight="@integer/layout_weight_1"
             layout="@layout/cell_game"
             android:id="@+id/cellNine"
         />

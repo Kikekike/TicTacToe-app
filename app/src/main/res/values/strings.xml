@@ -7,12 +7,19 @@
     <string name="hint_player_two">Player Two</string>
     <string name="start_game_text">Start Game</string>
     <string name="main_icon_description">Main Icon App</string>
+
+    <string name="error">Error</string>
+    <string name="text_error_message">Player names must have at least one letter.</string>
+    <string name="ok">OK</string>
     <!-- PlayerNamesScreen -->
 
     <!-- BoardGameScreen -->
     <string name="dummy_player_name">Player Name</string>
     <string name="player_turn">Turn</string>
     <string name="player_icon_description">Player Icon</string>
+
+    <string name="player_one_name">Player One</string>
+    <string name="player_two_name">Player Two</string>
     <!-- PlayerNamesScreen -->
 
 </resources>

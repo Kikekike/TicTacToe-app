@@ -8,6 +8,5 @@
     android:contentDescription="@string/player_icon_description"
     android:src="@drawable/empty_cell_icon"
     android:padding="@dimen/margin_space_32dp"
-    android:adjustViewBounds="true"
     android:scaleType="centerInside">
 </ImageButton>
