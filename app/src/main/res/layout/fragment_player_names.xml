@@ -86,5 +86,14 @@
         app:layout_constraintStart_toStartOf="@+id/namePlayerTwo"
         app:layout_constraintTop_toBottomOf="@+id/namePlayerTwo"/>
 
+    <TextView
+        style="@style/TextViewTitle.Size18"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/margin_space_8dp"
+        android:text="@string/motivation_text"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

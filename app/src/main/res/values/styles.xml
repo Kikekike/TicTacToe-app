@@ -10,6 +10,10 @@
         <item name="fontFamily">@font/tw_cen_mt_dtd</item>
     </style>
 
+    <style name="TextViewTitle.Size18">
+        <item name="android:textSize">@dimen/text_size_18sp</item>
+    </style>
+
     <!-- edit text style -->
     <style name="MainEditText" >
         <item name="fontFamily">@font/tw_cen_mt_dtd</item>
