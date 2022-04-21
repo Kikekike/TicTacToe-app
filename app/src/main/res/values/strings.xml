@@ -7,6 +7,7 @@
     <string name="hint_player_two">Player Two</string>
     <string name="start_game_text">Start Game</string>
     <string name="main_icon_description">Main Icon App</string>
+    <string name="motivation_text">Lets play!, You are the best! :D</string>
 
     <string name="error">Error</string>
     <string name="text_error_message">Player names must have at least one letter.</string>
