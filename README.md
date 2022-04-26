@@ -1,3 +1,7 @@
+![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/Kikekike/TicTacToe-app)
+![GitHub top language](https://img.shields.io/github/languages/top/Kikekike/TicTacToe-app?color=pink)
+![GitHub last commit](https://img.shields.io/github/last-commit/Kikekike/TicTacToe-app?color=green)
+
 # TicTacToe-app
 
 App of famous game Tic Tac Toe or "The cat game", made to practice knowledge of Kotlin and creation of apps. 
