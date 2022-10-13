@@ -157,7 +157,7 @@ class BoardGameFragment : Fragment() {
 
     private fun showTie() {
         requireContext().showDialog(
-            title = getString(R.string.tie),
+            title = getString(R.string.draw),
             message = (getString(R.string.text_tie_message)),
             positiveButtonText = getString(R.string.restart),
             positiveButtonAction = { _, _ -> restartGame() },
@@ -182,7 +182,15 @@ class BoardGameFragment : Fragment() {
         }
         TURN = 0
         winner = false
+        changeStartPlayer()
         setPlayerTurn()
+    }
+
+    private fun changeStartPlayer(){
+        val auxName = playerOneName
+        playerOneName = playerTwoName
+        playerTwoName = auxName
+        playerIconTurn = R.drawable.player_two_icon_big
     }
 
     private fun restartCell(cell: ImageButton) {
