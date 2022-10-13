@@ -25,8 +25,8 @@
     <string name="winner">Winner!!!</string>
     <string name="text_winner_message">won the Game :)</string>
     <string name="restart">restart?</string>
-    <string name="tie">Tie!!!</string>
-    <string name="text_tie_message">GG, It´s a tie :)</string>
+    <string name="draw">Draw!!!</string>
+    <string name="text_tie_message">GG, It´s a draw :)</string>
     <string name="exit">Exit</string>
     <!-- PlayerNamesScreen -->
 
